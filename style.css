@@ -1,0 +1,156 @@
+* {padding: 0px;margin: 0px;}
+#grid {background: transparent url(http://shookies.net/images/grid.png) repeat top center;width: 100%;height: 500px;position: absolute;top: 0;left: 0;z-index: 1000;}
+body {background: white url(http://shookies.net/images/backdrop.gif) repeat top center;text-align: center;font: normal 14px/1.5 helvetica, arial, sans-serif;color: #532416;}
+#container {position: relative;top: 0;margin: 0 auto;text-align: left;}
+
+
+/**** Logo Animation ala CSS3 ****/
+@-webkit-keyframes rotation {
+	from {-webkit-transform: rotate(0deg);}
+	to {-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes rotation {
+	from {-moz-transform: rotate(0deg);}
+	to {-moz-transform: rotate(360deg);}
+}
+
+#freeship {width: 210px;height: 222px;display: block;text-indent: -9999px;background: transparent url(http://shookies.net/images/freeship3.png) no-repeat top left;position: absolute;top: 0px;left: 0px;z-index: 901;}
+#vacation {display:block;padding: 20px 160px;text-align: center}
+#vacation h3 {font-size: 32px !important;border-top: 1px solid #532416;padding: 20px 20px 10px 20px}
+#vacation p {border-bottom: 1px solid #532416;padding: 0px 20px 20px 20px !important}
+#vacation strong {font-weight: bold;display: block;}
+#vacation em {font-family: Georgia, serif;}
+h1 {width: 246px;height: 245px;position: absolute;z-index: 999;top: 15px;left: 110px;}
+h1 a {width: 246px;height: 245px;text-decoration: none;text-indent: -9999px;display: block;background: transparent url(http://shookies.net/images/logo_text.png) no-repeat top left;}
+h1 a:hover {}
+header cite {-moz-animation-timing-function: linear;-moz-animation-name: rotation;-moz-animation-duration: 240s;-moz-animation-iteration-count: infinite, 100;-webkit-animation-timing-function: linear;-webkit-animation-name: rotation;-webkit-animation-duration: 240s;-webkit-animation-iteration-count: infinite, 100;width: 246px;height: 245px;position: absolute;z-index: 998;top: 15px;left: 110px;text-indent: -9999px;display: block;background: transparent url(http://shookies.net/images/logo_back.png) no-repeat top left;}
+
+header {padding: 88px 0 0 0;position: relative;z-index: 900;width: 940px;height: 120px;display: block;background: transparent url(http://shookies.net/images/backdrop_header.png) no-repeat bottom center;margin: 0px auto;}
+header nav {width: 495px;display: block;background-color: transparent;position: absolute;top: 113px;left: 365px;}
+header ul {}
+header ul li {list-style-type: none;display: block;float: left;}
+header ul li a {text-indent: -9999px;text-decoration: none;display: block;/* -webkit-transition: 100ms linear; */}
+#l_menu a {width: 87px;height: 57px;background: transparent url(http://shookies.net/images/l_menu.png) no-repeat bottom left;}
+#l_what a {width: 208px;height: 57px;background: transparent url(http://shookies.net/images/l_what.png) no-repeat bottom left;}
+#l_faq a {width: 84px;height: 57px;background: transparent url(http://shookies.net/images/l_faqs.png) no-repeat bottom left;}
+#l_contact a {width: 116px;height: 57px;background: transparent url(http://shookies.net/images/l_contact.png) no-repeat bottom left;}
+#l_menu a:hover {background-position: center left;}
+#l_what a:hover {background-position: center left;}
+#l_faq a:hover {background-position: center left;}
+#l_contact a:hover {background-position: center left;}
+#l_menu a:active {background-position: top left;}
+#l_what a:active {background-position: top left;}
+#l_faq a:active {background-position: top left;}
+#l_contact a:active {background-position: top left;}
+header ul li a:focus, h1 a:focus {-moz-outline: none;}
+
+header p {position: absolute;top: 30px;left: 635px;padding: 0px 10px 14px 10px;font-size: 10px;font-weight: bold;color: #7e9dcc;}
+header p img {border: none;position: relative;top: 10px;padding: 0px 4px;}
+header p a {opacity: 1.0;-moz-transition: 400ms linear;-webkit-transition: 400ms linear;}
+header p a:hover {opacity: .5;}
+
+form {display: block;padding: 0px 160px 40px 160px;}
+fieldset {border: none;margin-right: 20px;}
+fieldset ul {padding: 20px 0;}
+fieldset ul li {list-style-type: none;padding: 0px 0px 20px 0px;}
+legend {display: none;}
+label {display: block;}
+input {padding: 5px;border: 1px solid #fad5e5;display: block;-moz-box-shadow: inset 0px 0px 5px rgba(0,0,0,.2);box-shadow: inset 0px 0px 5px rgba(0,0,0,.2);-webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0,.2);}
+#contactform input {width: 250px;}
+textarea {display: block;width: 250px;height: 150px;padding: 5px;border: 1px solid #fad5e5;-moz-box-shadow: inset 0px 0px 5px rgba(0,0,0,.2);box-shadow: inset 0px 0px 5px rgba(0,0,0,.2);-webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0,.2);}
+.hidden_input {display: none;}
+
+#container section {position: relative;z-index: 800;width: 940px;display: block;margin: 0 auto;background: transparent url(http://shookies.net/images/backdrop_section.png) repeat-y top center;}
+#container section ol {padding: 20px 140px 20px 140px;overflow: hidden;}
+#container section ol li {list-style-type: none;clear: both;padding: 0 0 40px 0;}
+#container section ol li h4, #product_page h4 {font-size: 25px;padding-top: 30px;}
+#container section ol li h4 em, #product_page h4 em {font-size: 14px;font-style: italic;font-family: georgia,serif;font-weight: normal;position: relative;bottom: 4px;}
+#container section ol li h4 sup, #product_page h4 sup {font-size: 14px;}
+#container section ol li h3, #product_page h3 {padding: 20px 0px 0px 20px;font-size: 24px;font-weight: bold;}
+#container section ol li h3 a {-moz-transition: background-color 1s linear;-webkit-transition: background-color 1s linear;background-color: white;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+#container section ol li h3 a:hover {background-color: #e9edf6;color: #532416;}
+#container section ol li img, #product_page img {float: left;padding: 0px 13px 40px 0px;}
+#container section p, #product_page p {color: #863a23;font-family: Georgia, serif;padding: 5px 0 0 0;}
+#container section ol li {padding: 10px 0 0 0;}
+#container section ol li form, #product_page form {display: inline !important;padding: 0px !important;}
+#container section ol li button, #product_page button {border: none;cursor: pointer;position: relative;right: 120px;top: 50px;float: right;height: 36px !important;width: 91px !important;text-indent: -9999px !important;display: block;background: transparent url(http://shookies.net/images/addtocart.png) no-repeat top left;padding: 0px !important;}
+#soldout {position: relative;;top: 10px;float: right;display: block;font-style: normal;font-weight: bold;}
+#container section ol li button:hover, #product_page button:hover {background-position: bottom left;}
+#container section ol li button:active, #product_page button:active {right: 122px;top: 52px;}
+
+#more_title {font-weight: normal !important;clear: both;padding-top: 40px;color: #fad5e5;}
+#more_shookies {clear: both;padding: 10px 0 40px 0;}
+#more_shookies li {float: left;width: 120px;list-style-type: none;}
+#more_shookies img {border: none;}
+#more_shookies a {text-decoration: none;-moz-transition: opacity 500ms linear;-webkit-transition: opacity 500ms linear;opacity: .5;display: block;width: 120px;height: 120px;background-color: white !important;}
+#more_shookies a:hover {opacity: 1;}
+
+.ingredients {-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background: -moz-linear-gradient(top, #fff 2%, #fff 50%, #fcd8e8);background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fcd8e8), color-stop(0.15, #fff), color-stop(0.5, #fff));color: #dfbecd;text-shadow: 1px 1px 3px #fff;border: 1px solid #fcd8e8;line-height: 1px;font-weight: bold;font-style: normal;padding: 5px 9px;position: relative;top: 10px;font-size: 10px;cursor: pointer;}
+.ingredients:hover {color: #532416;background: -moz-linear-gradient(top, #fff 2%, #fff 50%, #dfbecd);background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dfbecd), color-stop(0.15, #fff), color-stop(0.5, #fff));}
+.ingredients:active {top: 11px;right: 1px;}
+
+article {display: block;padding: 10px 160px 40px 160px;overflow: hidden;}
+#product_page {padding: 30px 140px 20px 140px;}
+article section {width: 300px !important;float: right;background: none !important;padding-top: 20px !important;}
+article section p {padding-bottom: 14px !important;}
+h2 {padding: 60px 0px 0px 0px;font-size: 45px;font-family: georgia,times,serif;font-weight: normal;}
+h5 {font-size: 10px;border-top: 1px solid #fad5e5;border-bottom: 1px solid #fad5e5;text-transform: uppercase;font-weight: bold;color: #c29c91;padding: 5px 10px;}
+article p {text-align: justify;}
+dt {font-size: 18px;font-weight: bold;padding-top: 20px;}
+dt em {font-style: normal;font-weight: normal;color: #c29c91;position: relative;right: 20px;margin-right: -18px;}
+dd {padding-bottom: 10px;}
+aside {width: 220px;float: right;padding-top: 20px;}
+aside ul li {list-style-type: none;padding: 0 0 10px 0}
+
+#sherylphotos {float: left;list-style-type:none;padding-top: 30px;}
+#sherylphotos li {padding-bottom: 15px;}
+
+footer {clear: both;text-align: center;width: 940px;display: block;margin: 0 auto 20px auto;background: transparent url(http://shookies.net/images/backdrop_footer_small.png) no-repeat top center;}
+footer h6 {padding: 30px 0 5px 0;}
+#container section a, footer a {background-color: #fad5e5;padding: 2px 4px;text-decoration: none;color: #532416;}
+#container section a:hover, footer a:hover {background-color: #532416;color: #fad5e5;}
+
+
+/**** Shopping cart ****/
+#cart {background: transparent url(http://shookies.net/images/cart_back.png) no-repeat bottom center;width: 220px;border-radius:
+-moz-border-radius-bottomleft: 4px;-webkit-border-bottom-left-radius: 4px;-moz-border-radius-bottomright: 4px;
+-webkit-border-bottom-right-radius: 4px;box-shadow: 0px 0px 3px #333;position: absolute;top: -5px;left: 50%;margin: 0 0 0 -50px;z-index: 3000;box-shadow: 0px 0px 5px black;-moz-box-shadow: 0px 0px 5px black;-webkit-box-shadow: 0px 0px 5px black;}
+#cart p {color: white;font-size: 10px;text-align: center;}
+#cart p a {display: block;padding: 10px;color: white;text-decoration: none;}
+table {border-collapse: collapse;width: 620px;}
+th {background-color: #e5e5e5;padding: 5px 10px;}
+tfoot {text-align: right;background-color: #e5e5e5;padding: 5px 10px}
+tfoot tr {border: none;}
+td {padding: 10px 0px;}
+td h3 {padding-top: 20px;}
+form td a {font-size: 10px;}
+td input {margin-left: 10px;}
+td img {float: left;padding: 10px 10px 10px 0;}
+td h4 {padding: 0px 10px}
+form h6 {font-size: 18px;padding: 40px 20px 20px 20px;text-align: center;}
+form h6 input {display: inline !important;position: relative;top: 20px;left: 10px;}
+.field {width: 50px;}
+#update {text-align: right;font-size: 10px;}
+#update input {display: inline;bottom: 0px;}
+.update-cart, #update-cart {margin-top: 20px;cursor: pointer;position: relative;bottom: 3px;opacity: .5;font-size: 10px;font-weight: bold;margin-left: 5px;-moz-border-radius: 10px;border-radius: 10px;-webkit-border-radius: 10px;background-color: #666 !important;color: white !important;padding: 3px 8px 2px 8px !important;text-decoration: none;text-shadow: 0 -1px 1px rgba(0,0,0,0.25);border-bottom: 1px solid rgba(0,0,0,0.25);-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.2);box-shadow: 0 1px 3px rgba(0,0,0,0.2);-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);background-image: none !important;border: none;}
+.update-cart:hover, #update-cart:hover {background-color: #c90000;opacity: 1;}
+td a {cursor: pointer;position: relative;bottom: 3px;opacity: .5;font-size: 12px;font-weight: bold;margin-left: 5px;-moz-border-radius: 10px;border-radius: 10px;-webkit-border-radius: 10px;background-color: #666 !important;color: white !important;padding: 3px 8px 2px 8px !important;text-decoration: none;text-shadow: 0 -1px 1px rgba(0,0,0,0.25);border-bottom: 1px solid rgba(0,0,0,0.25);-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.2);box-shadow: 0 1px 3px rgba(0,0,0,0.2);-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);background-image: none !important;}
+td a:hover {background-color: #c90000;opacity: 1;}
+#cart-form button, fieldset button {cursor: pointer;background-color: #532416 !important;padding: 4px;color: white;display: block;border: none;-moz-box-shadow: 0px 0px 5px #333;box-shadow: 0px 0px 5px #333;-webkit-box-shadow: 0px 0px 5px #333;text-transform: uppercase;font-size: 12px;font-weight: bold;}
+#cart-form button em, fieldset button em {font-style: normal;background-color: #863a23;color: white;border: 1px solid #a16858;padding: 4px;display: block;}
+#cart-form button:hover, fieldset button:hover {background-color: #fad5e5;}
+#cart-form button:hover em, fieldset button:hover em {background-color: white;color: #863a23;border-color: #fad5e5;}
+.note_checkout {padding: 0 0 20px 100px;}
+.note_checkout label {text-align: left;display: block;margin-bottom: 10px;font-weight: bold;}
+.note_checkout label em {display: block;font-style: normal;font-size: 12px;font-weight: normal;color: #c29c91;}
+.note_checkout textarea {width: 400px !important;height: 40px}
+.item_cart {border-top: 1px solid #ccc;}
+#discount_highlight {border-top: 1px solid #e5e5e5;}
+#discount_highlight em {text-align: right;padding-right: 10px;font-weight: bold;display: block;font-style: normal;}
+#discount_highlight label {text-align: right;padding-right: 10px;}
+
+
+/**** qtip ****/
+.qtip-wrapper {padding: 4px;z-index: 20000;-moz-box-shadow: 0px 0px 10px #888;box-shadow: 0px 0px 10px #888;-webkit-box-shadow: 0px 0px 10px #888;background-color: #fcd8e8;background-color: rgba(252,216,232,.9);color: #fcd8e8;-moz-border-radius: 5px !important;border-radius: 5px !important;-webkit-border-radius: 5px !important;}
+.qtip-tip {z-index: 20001;}
+.qtip-tip, canvas {position: absolute; !important;}

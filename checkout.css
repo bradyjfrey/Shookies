@@ -1,0 +1,35 @@
+body {background: white url('backdrop.gif') repeat top center !important;font-family: helvetica, arial, sans-serif;}
+#container.slim #header, #header {padding: 88px 0 0 0;position: relative;z-index: 900;width: 940px;height: 120px;display: block;background: transparent url('backdrop_header.png') no-repeat bottom center;}
+#container {position: absolute;top: 0;left: 50%;margin: 0px 0 0 -470px;background: none !important;width: 940px !important;}
+#container.slim #footer, #footer {clear: both;text-align: center;width: 940px;display: block;margin: 0 auto 20px auto !important;background: transparent url('backdrop_footer_small.png') no-repeat top center !important;padding: 0px !important;}
+#container.slim #main, #main {position: relative;z-index: 800;width: 940px;display: block;margin: 0 auto !important;background: transparent url('backdrop_section.png') repeat-y top center !important;padding: 0px !important;}
+
+#container.slim #overview h2 {font-size: 18px;font-weight: bold;padding: 0px 60px 10px 60px !important;}
+#container.slim #thumbs {padding: 0px 60px 10px 60px !important}
+#container.slim #content {padding: 0px 150px 40px 150px !important}
+#main #overview {
+  background: transparent;
+  border: none;
+  padding: 80px 60px 10px 100px !important;
+}
+#main #overview > * {border: none;}
+#main #thumbs div {border: none;}
+#logo { 
+  height: 254px;
+  width: 246px;
+  background: url(logo.png) center no-repeat;
+  position: absolute;z-index: 999;top: 15px;left: 110px;
+}
+#container.slim #tagline {padding: 18px 0px 0px 200px;margin: 0px !important;}
+#header > h1{text-align:center;}
+#header > h1 span.title {display:none;}
+#header > h1 span.subtitle {color: white;font-size: 18px;position: relative;top: 25px;}
+#products {padding-left: 20px;}
+#content {padding: 10px 100px !important;}
+#shop-policies {padding-top: 10px !important;}
+.plisthead {}
+.plist-line-price {}
+#info-bar {-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.3);box-shadow: 0px 0px 5px rgba(0,0,0,.3);-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.3);background-color: rgba(255,251,229,.7);padding: 10px 0px !important;z-index: 2000;}
+#facebox {z-index: 3000;}
+#container.slim #shop-policies {padding-top: 40px !important;}
+#container.slim .group p {padding: 10px 20px !important;margin: 0px !important;}
